@@ -5,14 +5,36 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/master.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="container header">
+        <div class="title">
+            <div id="Mary">
+                <span class="f-letter">m</span>ary
+            </div>
+            <div id="Ji">
+                <span class="f-letter">j</span>i
+            </div>
+        </div><!-- end of title -->
+        
+        <div class="menu">
+            <div class="li one"><a href="#me">me</a></div>
+            <div class="li two"><a href="#designs">designs</a></div>
+            <div class="li three"><a href="#projects">projects</a></div>
+            <div class="li four"><a href="resume_new.pdf" target="_blank">resume</a></div>
         </div>
-        <div class="body">
+    </div>
+<!--    <div class="spacer">&nbsp;</div>-->
+    <div class="container body">
+        <div id="me" class="hidden">
+            <p>Here's a little about me.</p>
         </div>
-        <div class="footer">
+        <div id="designs" class="hidden">
+        </div>
+        <div id="projects" class="hidden">
         </div>
     </div>
 
