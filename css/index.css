@@ -193,6 +193,12 @@ body {
   background-size: contain;
 }
 
+.github a {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
 .github:hover {
   opacity: 0.8;
   cursor: pointer;
@@ -203,12 +209,17 @@ body {
   margin-left: 1em;
 }
 
-.heap-sort .demo:hover {
+.demo a:visited, .demo a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.heap-sort .demo a:hover {
   color: #CBEDDF;
   cursor: pointer;
 }
 
-.green-food .demo:hover {
+.green-food .demo a:hover {
   color: #4BC670;
   cursor: pointer;
 }
