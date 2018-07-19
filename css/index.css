@@ -131,6 +131,8 @@ body {
   transition: all 0.2s ease-in;
 }
 
+.container-green-food,
+.container-heap-sort,
 .green-food,
 .heap-sort,
 .green-food .icon,
